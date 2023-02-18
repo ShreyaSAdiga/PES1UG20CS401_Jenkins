@@ -13,6 +13,7 @@ pipeline {
             steps {
                 sh './hello'
                 echo 'Test stage successful'
+                hello123
             }
         }
 
