@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'g++ -o hello Jenkins_lab-main/Jenkinsfile/abc1.cpp'
+                build 'PES1UG20CS401-1'
                 echo 'Build stage successful'
             }
         }
